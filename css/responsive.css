@@ -13,6 +13,12 @@
     }
 }
 
+@media screen and (max-width: 990px) {
+    #nav {
+        z-index: 10;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #hero img {
         width: 60%;
