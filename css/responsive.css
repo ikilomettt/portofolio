@@ -1,0 +1,45 @@
+@media screen and (max-width: 1200px) {
+    #hero p {
+        font-size: .8rem;
+
+    }
+
+    #hero h1 {
+        font-size: 1.8rem;
+    }
+
+    #hero h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero img {
+        width: 60%;
+    }
+
+    .btn-custom1 {
+        width: 80%;
+    }
+    #hero .row {
+        padding-bottom: 70px;
+    }
+
+    .social-icon {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #skill .card {
+        padding-left: 30px !important;
+        padding-right: 30ps !important;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+}
+
+@media screen and (max-width: 350px) {
+
+}

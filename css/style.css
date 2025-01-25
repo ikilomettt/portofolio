@@ -1,0 +1,145 @@
+:root {
+    --mainColor : #FFFFFF;
+    --secondarrColor : #D7D7D7;
+    --thirdColor : #F38221;
+    --fourtColor : #000000;
+    --fiveColor : #FFF4AB;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Style Navbar */
+.nav-link.active {
+    color: var(--fiveColor) !important;
+    font-weight: 700;
+}
+
+
+
+.nav-dark {
+    background-color: var(--thirdColor) !important;
+    z-index: 10;
+    transition: .8s;
+}
+/* End Style Navbar */
+
+/* Hero */
+.color-acsent {
+    color: var(--thirdColor);
+}
+
+.color-cd {
+    color: var(--fiveColor);
+}
+
+
+#hero {
+    min-height: 100vh;
+    padding-top: 75px;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: .8rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--thirdColor);
+    text-align: center;
+    color: var(--mainColor);
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+}
+
+.cv {
+    color: var(--fourtColor);
+    cursor: pointer;
+    font-size: .8rem;
+}
+
+.social-icon svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+
+
+/* End Hero */
+
+/* about */
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--fiveColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300%;
+    width: 100%;
+    background-color: var(--thirdColor);
+    color: var(--mainColor);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+/* end about */
+
+/* skill */
+
+#skill {
+    min-height: 600px;
+    width: 100%;
+
+}
+#skill img {
+    width: 12%;
+    margin: 10px;
+}
+
+#skill .card {
+    background-color: var(--thirdColor);
+    height: 350px;
+    color: var(--mainColor);
+}
+
+#skill .card:hover {
+    background-color: var(--fiveColor);
+}
+
+#skill p {
+    font-size: 15px;
+}
+
+.skill-conten {
+    margin-top: 120px;
+}
+/* end skill */
+
+/* footer */
+.social-icon-footer svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+/* end footer */
